@@ -19,5 +19,42 @@ Command run_synthesis
 THE FLOP RATIO = Number of FLops/ Total Cells 
  = 1613/14876 =0.108428969 = 10.84%
 
+# sta report after synthesis
+![Screenshot from 2024-08-23 00-17-46](https://github.com/user-attachments/assets/15913833-4b1f-43d2-902b-a5b9df66b659)
+
+
+ **DAY 2**  **FLOOR PLAN**
+
+ Floor Plan .tcl 
+ ![Screenshot from 2024-08-23 00-26-27](https://github.com/user-attachments/assets/5558a557-3745-4740-be53-02b0d5bb091c)
+ init_floor plan
+ ![Screenshot from 2024-08-23 00-54-17](https://github.com/user-attachments/assets/a80cdee3-7e91-4151-b8b5-cf6a028bf1a6)
+place_io
+![Screenshot from 2024-08-23 00-54-50](https://github.com/user-attachments/assets/c39435a7-2726-466f-865c-4ffdd64c452c)
+Decap Cells Inserted 
+tap_decap 
+![Screenshot from 2024-08-23 00-56-52](https://github.com/user-attachments/assets/aa900841-b3a0-4081-8355-5f2aecf6cf0b)
+
+Floorplan.def File Created in the Results
+![Screenshot from 2024-08-23 01-03-59](https://github.com/user-attachments/assets/c9a06ea7-8940-4cec-b9e1-684ec5564123)
+# DEF FILE 
+it Has the Die Area 
+![Screenshot from 2024-08-23 01-05-19](https://github.com/user-attachments/assets/2f87f7fa-0d23-41b0-8fcc-8ce7128db3c8)
+
+We can calculate the area using the def file  the unit is 1000 microns
+DIEAREA ( 0 0 ) ( 660685 671405 )   This is from the def file and the values are the boundaries of the die 
+Area of the die can be calculated  as 6600685 /1000  * 671405/1000 = 4431732.912425 microns^2
+
+# Magic 
+Reading the LEF and DEF FIles using command 
+# magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def 
+![Screenshot from 2024-08-23 01-20-45](https://github.com/user-attachments/assets/59dce648-e13f-428f-823b-4114e1642f4b)
+
+
+
+
+
+ 
+
 
 
