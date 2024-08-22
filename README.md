@@ -11,5 +11,8 @@ Preparation has been done using prep design
 Synthesis
 Command run_synthesis
 ![Screenshot from 2024-08-22 23-53-35](https://github.com/user-attachments/assets/5dbcf253-e898-49ea-9383-006b4a806fc0)
+#synthesis Results 
+![Screenshot from 2024-08-23 00-02-49](https://github.com/user-attachments/assets/07175763-2960-4336-a06d-53e11161b7e0)
+![Screenshot from 2024-08-23 00-02-39](https://github.com/user-attachments/assets/c5016512-e1d9-41f2-be60-9fa4a1463f4c)
 
 
