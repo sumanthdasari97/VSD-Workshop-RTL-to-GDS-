@@ -48,7 +48,13 @@ Area of the die can be calculated  as 6600685 /1000  * 671405/1000 = 4431732.912
 # Magic 
 Reading the LEF and DEF FIles using command 
 # magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def 
-![Screenshot from 2024-08-23 01-20-45](https://github.com/user-attachments/assets/59dce648-e13f-428f-823b-4114e1642f4b)
+![Screenshot from 2024-08-23 23-37-38](https://github.com/user-attachments/assets/9fbea1a0-f9fc-408e-960e-1e1ea8f7a4a4)
+
+![Screenshot from 2024-08-23 23-46-17](https://github.com/user-attachments/assets/d75e62e7-f06a-49c4-9a96-98f62852f1fb)
+![Screenshot from 2024-08-23 23-45-55](https://github.com/user-attachments/assets/04980f08-4467-46cd-a8bf-f127802b5235)
+![Screenshot from 2024-08-23 23-45-49](https://github.com/user-attachments/assets/0758dc39-8ed5-4fb1-9e02-15d369e6f462)
+
+
 
 
 
