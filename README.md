@@ -1,3 +1,5 @@
+
+
 # VSD-Workshop-RTL-to-GDS
 #Open lane Directory and pdk Directory 
 ![Screenshot from 2024-08-22 23-13-16](https://github.com/user-attachments/assets/06e32aab-7a97-4e47-8c03-bca809d30513)
@@ -53,6 +55,16 @@ Reading the LEF and DEF FIles using command
 ![Screenshot from 2024-08-23 23-46-17](https://github.com/user-attachments/assets/d75e62e7-f06a-49c4-9a96-98f62852f1fb)
 ![Screenshot from 2024-08-23 23-45-55](https://github.com/user-attachments/assets/04980f08-4467-46cd-a8bf-f127802b5235)
 ![Screenshot from 2024-08-23 23-45-49](https://github.com/user-attachments/assets/0758dc39-8ed5-4fb1-9e02-15d369e6f462)
+
+
+**PLACEMENT**
+run_placement 
+![Screenshot from 2024-08-24 00-19-35](https://github.com/user-attachments/assets/98732cb2-af45-467a-80ec-879e32861db2)
+
+magic view of floor plan
+![Screenshot from 2024-08-24 00-22-40](https://github.com/user-attachments/assets/c9608cae-a603-48bc-b319-303630f36ed7)
+
+
 
 
 
