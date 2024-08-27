@@ -50,23 +50,80 @@ Area of the die can be calculated  as 6600685 /1000  * 671405/1000 = 4431732.912
 # Magic 
 Reading the LEF and DEF FIles using command 
 # magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def 
-![Screenshot from 2024-08-23 23-37-38](https://github.com/user-attachments/assets/9fbea1a0-f9fc-408e-960e-1e1ea8f7a4a4)
-
-![Screenshot from 2024-08-23 23-46-17](https://github.com/user-attachments/assets/d75e62e7-f06a-49c4-9a96-98f62852f1fb)
-![Screenshot from 2024-08-23 23-45-55](https://github.com/user-attachments/assets/04980f08-4467-46cd-a8bf-f127802b5235)
-![Screenshot from 2024-08-23 23-45-49](https://github.com/user-attachments/assets/0758dc39-8ed5-4fb1-9e02-15d369e6f462)
-
+![Screenshot from 2024-08-27 05-49-16](https://github.com/user-attachments/assets/7d4afeb5-e999-469f-a893-0c3c55b01a73)
+![Screenshot from 2024-08-27 05-50-44](https://github.com/user-attachments/assets/fbfbe795-2eca-4be2-bce5-acefe9062c5f)
+![Screenshot from 2024-08-27 05-53-14](https://github.com/user-attachments/assets/881f77c3-eb83-4101-ab49-3c9858e64ac7)
 
 **PLACEMENT**
 run_placement 
 ![Screenshot from 2024-08-24 00-19-35](https://github.com/user-attachments/assets/98732cb2-af45-467a-80ec-879e32861db2)
 
 magic view of floor plan
-![Screenshot from 2024-08-24 00-22-40](https://github.com/user-attachments/assets/c9608cae-a603-48bc-b319-303630f36ed7)
-
-
-
+# magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def
 ![Screenshot from 2024-08-27 05-35-16](https://github.com/user-attachments/assets/63f66d2e-daa0-437d-bc98-b75cff6f5e7a)
+
+Changing the io placer from 1 to 2
+![Screenshot from 2024-08-27 06-14-53](https://github.com/user-attachments/assets/e81b44c2-163c-4b70-a5b5-512c6b60f09a)
+
+
+**DAY 3**
+# LIBRARY CELL DESIGN 
+![Screenshot from 2024-08-27 06-21-50](https://github.com/user-attachments/assets/25262f2d-507f-467f-bf89-b427d63fc8d3)
+
+# Layout of INVERTER
+
+![Screenshot from 2024-08-27 06-21-41](https://github.com/user-attachments/assets/04aed524-0222-4e70-876e-4c8b3e226b62)
+
+![Screenshot from 2024-08-27 06-24-51](https://github.com/user-attachments/assets/3e60a4c5-ba1f-4b42-ac35-1f9b8561541d)
+
+# Connectivity of nmos
+![Screenshot from 2024-08-27 06-27-04](https://github.com/user-attachments/assets/4ba7eb23-37e0-403f-a56d-b3db212ea8d2)
+
+# Extracting the Spice Netlist
+ extract all
+ ext2spice
+![Screenshot from 2024-08-27 06-29-15](https://github.com/user-attachments/assets/31eab7a3-4697-4113-af7f-a922c261888c)
+![Screenshot from 2024-08-27 06-30-39](https://github.com/user-attachments/assets/23f5f0fe-7b94-431a-9192-c9869e44b2cb)
+
+# modified spice file 
+![Screenshot from 2024-08-27 06-32-31](https://github.com/user-attachments/assets/2e1d4555-3c21-419a-ae1f-41d7b235738e)
+
+# Spice simulation resutls 
+![Screenshot from 2024-08-27 06-35-45](https://github.com/user-attachments/assets/27d5a8a0-d398-4aa2-bf8b-21bf08351264)
+
+# Plot 
+![Screenshot from 2024-08-27 06-37-38](https://github.com/user-attachments/assets/1abe9ff3-339d-4a4a-b0c6-e69dabafcef3)
+
+
+Maximum value is 3.3 
+20% of max value is 0.66 xo is 2.1819e
+80% of max value is 2.64 
+
+
+DRC TESTS
+wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+tar xfz drc_tests.tgz
+cd drc_tests
+gvim .magicrc
+magic -d XR &
+![Screenshot from 2024-08-27 06-53-28](https://github.com/user-attachments/assets/73572879-2772-49cf-b670-340d979d4ff4)
+
+met3.mag
+![Screenshot from 2024-08-27 06-58-18](https://github.com/user-attachments/assets/16292945-e332-43ca-a348-4de6f78a0c88)
+
+Loading Poly.mag
+![Screenshot from 2024-08-27 07-08-06](https://github.com/user-attachments/assets/ad6bb249-eda6-4659-bc37-5b6e43f0015e)
+
+editing the poly.9 
+![Screenshot from 2024-08-27 07-27-03](https://github.com/user-attachments/assets/2fa7719e-374c-4fd7-b1c9-b11cc909f459)
+![Screenshot from 2024-08-27 07-30-18](https://github.com/user-attachments/assets/68fdff19-554f-4bdb-9a92-98c76ff57344)
+
+
+
+
+
+
+
 
 
 
