@@ -118,6 +118,18 @@ editing the poly.9
 ![Screenshot from 2024-08-27 07-27-03](https://github.com/user-attachments/assets/2fa7719e-374c-4fd7-b1c9-b11cc909f459)
 ![Screenshot from 2024-08-27 07-30-18](https://github.com/user-attachments/assets/68fdff19-554f-4bdb-9a92-98c76ff57344)
 
+# nwell.mag
+![Screenshot from 2024-08-28 05-10-26](https://github.com/user-attachments/assets/3d541c52-099d-4a1f-8735-5418af02cf0a)
+
+updated tech file 
+![Screenshot from 2![Screenshot from 2024-08-28 05-24-07](https://github.com/user-attachments/assets/e6e72d88-c2ed-4500-a766-b62853d7ea43)
+024-08-28 05-19-58](https://github.com/user-attachments/assets/b23035c3-cc29-4312-a94a-e14e1ee06862)
+![Screenshot from 2024-08-28 05-51-31](https://github.com/user-attachments/assets/2452c08a-d75b-4007-90f7-b7eab96672b1)
+![Screenshot from 2024-08-28 05-38-51](https://github.com/user-attachments/assets/b57ce36e-2bd5-4561-9ca0-7614ecd36462)
+
+
+
+
 
 
 
