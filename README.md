@@ -127,6 +127,95 @@ updated tech file
 ![Screenshot from 2024-08-28 05-51-31](https://github.com/user-attachments/assets/2452c08a-d75b-4007-90f7-b7eab96672b1)
 ![Screenshot from 2024-08-28 05-38-51](https://github.com/user-attachments/assets/b57ce36e-2bd5-4561-9ca0-7614ecd36462)
 
+**DAY4**
+# LEF EXTRACTION
+TRACKS INFO 
+![Screenshot from 2024-08-28 06-02-50](https://github.com/user-attachments/assets/2362d347-e46e-4b59-b693-eafc060362c3)
+Grids as per tracks info
+![Screenshot from 2024-08-28 06-07-58](https://github.com/user-attachments/assets/66048686-c87d-4585-9d20-df47e8c0127b)
+
+writing LEF 
+![Screenshot from 2024-08-28 06-24-05](https://github.com/user-attachments/assets/c812239f-cd93-4fa8-b716-0829a9c1ceae)
+
+VSD _INV LEF FILE
+![Screenshot from 2024-08-28 06-25-16](https://github.com/user-attachments/assets/f953f901-d695-4a12-81a8-ae32e20e58d6)
+
+
+
+![Screenshot from 2024-08-29 05-32-07](https://github.com/user-attachments/assets/7a9fbaff-d60f-454f-9671-d325f3f8f6d2)
+
+Custom Inv Cell Added 
+![Screenshot from 2024-08-29 05-35-15](https://github.com/user-attachments/assets/1e3b183a-83d9-47f9-9ccd-18d3882b41bb)
+timing report
+![Screenshot from 2024-08-29 05-36-32](https://github.com/user-attachments/assets/8515b9e8-fb9d-455a-823d-eb377b3d8661)
+
+cHANGING THE CONFIGURATIONS IN ORDER TO REDUCE THE NEGATIVE SLACK MORE IN TO TIMING ORIENTED 
+![Screenshot from 2024-08-29 05-47-56](https://github.com/user-attachments/assets/831cca7b-9f03-4d45-8af4-4ff1998d91db)
+
+After running synthesis 
+![Screenshot from 2024-08-29 05-56-31](https://github.com/user-attachments/assets/92f7d100-285b-4111-9e9b-080a0d4074a8)
+
+Improved timing 
+![Screenshot from 2024-08-29 05-57-35](https://github.com/user-attachments/assets/8909c0c7-9976-432c-96ff-a73f4d600031)
+
+Custom cell included in the placement stage 
+![Screenshot from 2024-08-29 06-34-22](https://github.com/user-attachments/assets/c42ee3ba-e8a6-45d3-b390-df029438e4e5)
+
+![Screenshot from 2024-08-29 06-43-05](https://github.com/user-attachments/assets/2540cada-99a6-4eef-9e4c-6bb2857c328d)
+
+![Screenshot from 2024-08-29 06-33-11](https://github.com/user-attachments/assets/7b9c5d11-74d5-4290-ab23-48e733c261d2)
+
+Using Expand command 
+![Screenshot from 2024-08-29 06-39-36](https://github.com/user-attachments/assets/fec31e51-84a0-478e-951b-103b30bffa03)
+
+Pre_sta.conf
+![Screenshot from 2024-08-29 06-52-13](https://github.com/user-attachments/assets/1c0cd647-d7d7-4559-92eb-1f6bd617c206)
+
+my_base.sdc
+![Screenshot from 2024-08-29 07-03-10](https://github.com/user-attachments/assets/d78fb704-1749-42db-9df9-1f754580b60b)
+
+sta pre_sta.conf
+![Screenshot from 2024-08-29 07-07-22](https://github.com/user-attachments/assets/1c664374-53f2-45c1-9410-1170fdb20195)
+
+Fanout limited to 4 
+![Screenshot from 2024-08-29 07-16-34](https://github.com/user-attachments/assets/efbe6a9f-a081-4ceb-9908-b5aab1929879)
+
+Slack met 
+![Screenshot from 2024-08-29 07-18-30](https://github.com/user-attachments/assets/f3e5ffc0-0f04-4eb5-9727-411f330a2961)
+
+run_cts 
+![Screenshot from 2024-08-29 07-29-18](https://github.com/user-attachments/assets/f956369e-ceff-4214-be87-bbc5a9df81ee)
+
+Post CTS Anlaysis
+![Screenshot from 2024-08-29 22-12-55](https://github.com/user-attachments/assets/eb8d1337-0558-4986-bdad-3c7966f85cc1)
+
+Timing Met 
+![Screenshot from 2024-08-29 22-16-29](https://github.com/user-attachments/assets/ab57713f-45da-40e4-8c0e-1cb297110d83)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
 
 
 
