@@ -192,6 +192,30 @@ Post CTS Anlaysis
 Timing Met 
 ![Screenshot from 2024-08-29 22-16-29](https://github.com/user-attachments/assets/ab57713f-45da-40e4-8c0e-1cb297110d83)
 
+**DAY 5**
+PDN GENERATION
+![Screenshot from 2024-08-29 23-44-14](https://github.com/user-attachments/assets/d7798e38-9826-4a16-99fe-aaf5cc43b0c1)
+
+Power Distribution Network in Magic
+![Screenshot from 2024-08-29 23-57-21](https://github.com/user-attachments/assets/66e3206e-ae0c-465e-893a-f5d220c91779)
+
+![Screenshot from 2024-08-29 23-57-37](https://github.com/user-attachments/assets/939e908f-c1b3-4b47-ad6c-b5b9e271d055)
+
+Now run_routing 
+
+![Screenshot from 2024-08-30 00-01-43](https://github.com/user-attachments/assets/3230ebbd-2bed-48b1-a827-68d4997ef423)
+![Screenshot from 2024-08-29 23-59-24](https://github.com/user-attachments/assets/504f1b34-82fe-4254-a121-6575df3df9ed)
+
+![Screenshot from 2024-08-30 00-04-17](https://github.com/user-attachments/assets/2b71cdd6-fdee-450a-a6dd-a07fc9fc9e53)
+![Screenshot from 2024-08-30 00-03-53](https://github.com/user-attachments/assets/7e7d780b-d3df-46f7-8390-4c0c52fb7870)
+
+
+Final  DEF 
+![Screenshot from 2024-08-30 00-08-09](https://github.com/user-attachments/assets/de3fa258-91e3-4871-870e-d57d383f0f88)
+
+
+
+
 
 
 
