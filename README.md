@@ -41,17 +41,17 @@ Preparation has been done using prep design
 
 ## Successfull Floorplan.def File Created in the Results folder
 ![Screenshot from 2024-08-23 01-03-59](https://github.com/user-attachments/assets/c9a06ea7-8940-4cec-b9e1-684ec5564123)
-# DEF FILE 
-it Has the Die Area 
+# Opening the Floor plan DEF File 
+###  Die Area 
 ![Screenshot from 2024-08-23 01-05-19](https://github.com/user-attachments/assets/2f87f7fa-0d23-41b0-8fcc-8ce7128db3c8)
 
-We can calculate the area using the def file  the unit is 1000 microns
-DIEAREA ( 0 0 ) ( 660685 671405 )   This is from the def file and the values are the boundaries of the die 
-Area of the die can be calculated  as 6600685 /1000  * 671405/1000 = 4431732.912425 microns^2
+### We can calculate the area using the def file  the unit is 1000 microns
+### DIEAREA ( 0 0 ) ( 660685 671405 )   This is from the def file and the values are the boundaries of the die 
+### Area of the die can be calculated  as 6600685 /1000  * 671405/1000 = 4431732.912425 microns^2
 
-# Magic 
-Reading the LEF and DEF FIles using command 
-# magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def 
+# Magic Tool 
+## Reading the LEF and DEF FIles using command to visulazie the floor plan
+### magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def 
 ![Screenshot from 2024-08-27 05-49-16](https://github.com/user-attachments/assets/7d4afeb5-e999-469f-a893-0c3c55b01a73)
 ![Screenshot from 2024-08-27 05-50-44](https://github.com/user-attachments/assets/fbfbe795-2eca-4be2-bce5-acefe9062c5f)
 ![Screenshot from 2024-08-27 05-53-14](https://github.com/user-attachments/assets/881f77c3-eb83-4101-ab49-3c9858e64ac7)
