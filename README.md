@@ -29,17 +29,17 @@ Preparation has been done using prep design
 
 # **DAY 2**  **FLOOR PLAN**
 
- Floor Plan .tcl 
+ ## Floor Plan .tcl  File 
  ![Screenshot from 2024-08-23 00-26-27](https://github.com/user-attachments/assets/5558a557-3745-4740-be53-02b0d5bb091c)
- init_floor plan
+ ## Running Floor plan 
+ ### init_floor plan
  ![Screenshot from 2024-08-23 00-54-17](https://github.com/user-attachments/assets/a80cdee3-7e91-4151-b8b5-cf6a028bf1a6)
-place_io
+### IO placement : place_io
 ![Screenshot from 2024-08-23 00-54-50](https://github.com/user-attachments/assets/c39435a7-2726-466f-865c-4ffdd64c452c)
-Decap Cells Inserted 
-tap_decap 
+### Physical Cells Insertion : tap_decap_or
 ![Screenshot from 2024-08-23 00-56-52](https://github.com/user-attachments/assets/aa900841-b3a0-4081-8355-5f2aecf6cf0b)
 
-Floorplan.def File Created in the Results
+## Successfull Floorplan.def File Created in the Results folder
 ![Screenshot from 2024-08-23 01-03-59](https://github.com/user-attachments/assets/c9a06ea7-8940-4cec-b9e1-684ec5564123)
 # DEF FILE 
 it Has the Die Area 
