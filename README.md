@@ -20,14 +20,14 @@ Preparation has been done using prep design
 ![ from 2024-08-23 00-02-39](https://github.com/user-attachments/assets/c5016512-e1d9-41f2-be60-9fa4a1463f4c)
 ![Screenshot from 2024-08-23 00-02-49](https://github.com/user-attachments/assets/07175763-2960-4336-a06d-53e11161b7e0)
 
-THE FLOP RATIO = Number of FLops/ Total Cells 
- = 1613/14876 =0.108428969 = 10.84%
+### THE FLOP RATIO = Number of FLops/ Total Cells 
+###   = 1613/14876 =0.108428969 = 10.84%
 
-# sta report after synthesis
+## STA report after synthesis
 ![Screenshot from 2024-08-23 00-17-46](https://github.com/user-attachments/assets/15913833-4b1f-43d2-902b-a5b9df66b659)
 
 
- **DAY 2**  **FLOOR PLAN**
+# **DAY 2**  **FLOOR PLAN**
 
  Floor Plan .tcl 
  ![Screenshot from 2024-08-23 00-26-27](https://github.com/user-attachments/assets/5558a557-3745-4740-be53-02b0d5bb091c)
