@@ -205,11 +205,14 @@ Maximum value is 3.3
 ### Stripes added to the design
 ![Screenshot from 2024-08-29 23-57-37](https://github.com/user-attachments/assets/939e908f-c1b3-4b47-ad6c-b5b9e271d055)
 
-## Now run_routing 
-
+ # Routing  run_routing 
+## zero violations
 ![Screenshot from 2024-08-30 00-01-43](https://github.com/user-attachments/assets/3230ebbd-2bed-48b1-a827-68d4997ef423)
+## No DRC Errors after detailed Routing 
 ![Screenshot from 2024-08-29 23-59-24](https://github.com/user-attachments/assets/504f1b34-82fe-4254-a121-6575df3df9ed)
+## Magic view of routing.def 
 ![Screenshot from 2024-08-30 00-04-17](https://github.com/user-attachments/assets/2b71cdd6-fdee-450a-a6dd-a07fc9fc9e53)
+## Magic view of the DEF after Routing
 ![Screenshot from 2024-08-30 00-03-53](https://github.com/user-attachments/assets/7e7d780b-d3df-46f7-8390-4c0c52fb7870)
   
 ## SPEF FILE extracted
