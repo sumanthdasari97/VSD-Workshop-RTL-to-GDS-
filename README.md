@@ -12,7 +12,7 @@ Preparing the Picorv32a design in the openlane
 Preparation has been done using prep design 
 ![Screenshot from 2024-08-22 23-44-53](https://github.com/user-attachments/assets/6019d655-934f-46ca-8131-dcbf5ece7237)
 Synthesis using the Command 
- [run_synthesis](url)
+ <run_synthesis>
 ![Screenshot from 2024-08-22 23-53-35](https://github.com/user-attachments/assets/5dbcf253-e898-49ea-9383-006b4a806fc0)
 #synthesis Results 
 
