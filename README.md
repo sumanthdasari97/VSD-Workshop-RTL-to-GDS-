@@ -52,11 +52,15 @@ Preparation has been done using prep design
 # Magic Tool 
 ## Reading the LEF and DEF FIles using command to visulazie the floor plan
 ### magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def 
+
+## Physical Cells
 ![Screenshot from 2024-08-27 05-49-16](https://github.com/user-attachments/assets/7d4afeb5-e999-469f-a893-0c3c55b01a73)
+### "what" command to find the details of the cell
 ![Screenshot from 2024-08-27 05-50-44](https://github.com/user-attachments/assets/fbfbe795-2eca-4be2-bce5-acefe9062c5f)
+### Cells placed at the origin 
 ![Screenshot from 2024-08-27 05-53-14](https://github.com/user-attachments/assets/881f77c3-eb83-4101-ab49-3c9858e64ac7)
 
-**PLACEMENT**
+# ***PLACEMENT***
 run_placement 
 ![Screenshot from 2024-08-24 00-19-35](https://github.com/user-attachments/assets/98732cb2-af45-467a-80ec-879e32861db2)
 
