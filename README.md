@@ -202,7 +202,7 @@ Maximum value is 3.3
 
 ## Power Distribution Network in Magic
 ![Screenshot from 2024-08-29 23-57-21](https://github.com/user-attachments/assets/66e3206e-ae0c-465e-893a-f5d220c91779)
-
+### Stripes added to the design
 ![Screenshot from 2024-08-29 23-57-37](https://github.com/user-attachments/assets/939e908f-c1b3-4b47-ad6c-b5b9e271d055)
 
 ## Now run_routing 
